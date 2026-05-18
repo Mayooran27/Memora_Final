@@ -81,6 +81,7 @@ import {
                       <option [value]="opt.slug">{{ opt.label }}</option>
                     }
                   </select>
+
                 </div>
               </div>
               <div class="field">
@@ -89,10 +90,21 @@ import {
                   <select id="country" class="inp-select" [(ngModel)]="selectedCountry" (change)="navigateToSelection()">
                     <option value="srilanka">Sri Lanka</option>
                     <option value="unitedkingdom">United Kingdom</option>
+                    
                     <option value="canada">Canada</option>
                     <option value="unitedstates">United States</option>
                     <option value ="australia">Australia</option>
-                    <option value="germany">Germany</option>
+                    <option value="germany">Germany</option> 
+                    <option value ="france"> France </option>
+                    <option value ="india"> India </option>
+
+
+
+
+
+
+
+                    
 
 
                     

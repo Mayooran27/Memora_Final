@@ -54,7 +54,7 @@ public class PricingService
             new("Word Limit", new[] { "50 words", "70 words", "Unlimited", "Unlimited", "Unlimited", "Unlimited" })
         };
 
-        var packageDays = new[] { "2 Days", "3 Days", "4 Days", "5 Days", "6 Days", "7 Days" };
+        var packageDays = new[] { "1 months", "2 months ", "3 months", "6 months", "12 months", "7 Days" };
 
         var typeTitle = CategoryDisplayTitle(normalizedCategory);
         var contentSections = new List<PricingTextSectionDto>

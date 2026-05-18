@@ -17,7 +17,7 @@ public class PricingController : ControllerBase
     }
 
     [HttpGet("plans")]
-    public IActionResult GetPlans([FromQuery] string? category = "obituary", [FromQuery] string? country = "srilanka")
+    public IActionResult GetPlans([FromQuery] string? category = "obituary", [FromQuery] string? country = "United Kingdom")
     {
         var payload = _pricing.GetPricingPage(category, country);
         return Ok(payload);

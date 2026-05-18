@@ -663,19 +663,19 @@ export class ContactComponent {
   contacts: ContactItem[] = [
     {
       country: 'Sri Lanka',
-      hotline: '94 11 234 5678',
+      hotline: '94 76 464 4519',
       email: 'support@lifeeventshub.com',
       note: 'Local rates may apply · Mon–Sun 9:00–18:00 IST'
     },
     {
       country: 'United Kingdom',
-      hotline: '44 20 3137 6284',
+      hotline: '44 79 122 20779',
       email: 'support@lifeeventshub.com',
       note: 'UK office hours · Calls may be recorded for quality'
     }
   ];
 
-  selectedCountry = 'Sri Lanka';
+  selectedCountry = 'United Kingdom';
   name = '';
   email = '';
   subject = '';
