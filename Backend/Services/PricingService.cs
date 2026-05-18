@@ -50,11 +50,12 @@ public class PricingService
 
         var matrix = new List<PricingMatrixRowDto>
         {
-            new("Price", new[] { "36,000", "54,000", "72,000", "90,000", "108,000", "126,000" }),
+            new("Price", new[] { "100 $", "200 $", "300 $", "450 $", "600 $", "1,000 $" }),
             new("Word Limit", new[] { "50 words", "70 words", "Unlimited", "Unlimited", "Unlimited", "Unlimited" })
         };
 
-        var packageDays = new[] { "1 months", "2 months ", "3 months", "6 months", "12 months", "7 Days" };
+        var packageDays = new[] { "15 days", "30 days", "60 days", "90 days", "180 days", "360 days",  };
+
 
         var typeTitle = CategoryDisplayTitle(normalizedCategory);
         var contentSections = new List<PricingTextSectionDto>

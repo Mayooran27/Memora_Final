@@ -114,17 +114,20 @@ import {
             </div>
           </section>
 
-          <section class="lift-card region-strip">
-            <div class="region-pill">
-              <span class="region-name">{{ pricing()!.countryDisplayName }}</span>
-              <span class="region-badge">Open 24/7</span>
-            </div>
-            <div class="local-numbers">
-              @for (num of pricing()!.localNumbers; track num) {
-                <a class="local-num" [href]="'tel:' + telHref(num)">{{ num }}</a>
-              }
-            </div>
-          </section>
+          
+
+
+          <section class="lift-card selectors-card">
+
+
+
+
+
+
+            </section>
+
+
+
 
           <section class="lift-card pricing-panel">
             <div class="panel-head">
@@ -167,7 +170,7 @@ import {
               </table>
             </div>
             <p class="legend">*Terms apply.</p>
-          </section>
+        </section>
 
           @for (section of pricing()!.contentSections; track section.heading) {
             <section class="lift-card prose-card">
