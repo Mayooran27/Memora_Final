@@ -14,12 +14,12 @@ public class PricingService
 {
     private static readonly DisplayOption[] Options =
     {
-        new() { Days = 1, Price = 0.99m, Label = "1 day" },
-        new() { Days = 3, Price = 1.99m, Label = "3 days" },
-        new() { Days = 7, Price = 2.99m, Label = "7 days" },
-        new() { Days = 14, Price = 4.99m, Label = "14 days" },
-        new() { Days = 30, Price = 7.99m, Label = "30 days" },
-        new() { Days = 90, Price = 14.99m, Label = "90 days" }
+        new() { Days = 15, Price = 0.99m, Label = "15 days" },
+        new() { Days = 1, Price = 1.99m, Label = "30 days" },
+        new() { Days = 2, Price = 2.99m, Label = "60 days" },
+        new() { Days = 90, Price = 4.99m, Label = "90 days" },
+        new() { Days = 180, Price = 7.99m, Label = "180 days" },
+        new() { Days = 360, Price = 14.99m, Label = "360 days" }
     };
 
     public IReadOnlyList<DisplayOption> GetDisplayOptions() => Options;
